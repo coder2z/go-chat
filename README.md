@@ -49,3 +49,8 @@ go run main.go
 cd socket/socket-web
 go run main.go
 ```
+
+启动网关
+```
+micro api --handler=http
+```
