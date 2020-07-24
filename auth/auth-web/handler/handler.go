@@ -3,7 +3,7 @@ package handler
 import (
 	authSvr "auth/auth-svr/proto/auth-svr"
 	"auth/auth-web/dao"
-	R "auth/auth-web/response"
+	R "common/response"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )

@@ -5,6 +5,7 @@ import (
 	"github.com/micro/go-micro/v2/client"
 	socketSvr "socket-svr/proto/socket-svr"
 	"socket/socket-web/handler"
+	"socket/socket-web/middleware"
 )
 
 func InitRouter() *gin.Engine {
@@ -16,7 +17,7 @@ func InitRouter() *gin.Engine {
 	app := gin.Default()
 	api := app.Group("/socket")
 	{
-		api.GET("/ws", socket.Ws)
+		api.GET("/ws", middleware.Auth(), socket.Ws)
 	}
 	return app
 }

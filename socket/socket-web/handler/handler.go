@@ -1,6 +1,7 @@
 package handler
 
 import (
+	"common/jwt"
 	"github.com/gin-gonic/gin"
 	"github.com/gorilla/websocket"
 	"net/http"
@@ -23,22 +24,26 @@ var upGrader = websocket.Upgrader{
 var ConnAll = make(map[*websocketConn.Websocket]bool)
 
 func (s *Socket) Ws(c *gin.Context) {
-	ws, err := upGrader.Upgrade(c.Writer, c.Request, nil)
-	if err != nil {
-		return
-	}
-	conn, err := websocketConn.InitConnection(ws)
-	ConnAll[conn] = true
-	defer func() {
-		delete(ConnAll, conn)
-		conn.Close()
-	}()
+	userInfo, exists := c.Get("jwtUserInfo")
+	if exists {
+		user := userInfo.(jwt.UserInfo)
+		ws, err := upGrader.Upgrade(c.Writer, c.Request, nil)
+		if err != nil {
+			return
+		}
+		conn, err := websocketConn.InitConnection(ws)
+		ConnAll[conn] = true
+		defer func() {
+			delete(ConnAll, conn)
+			conn.Close()
+		}()
 
-	for {
-		data, _ := conn.ReadMessage()
-		res, _ := s.SocketSvr.Send(c, &socket.Request{
-			Message: string(data),
-		})
-		s.RabbitMq.PublishPub(res.Message)
+		for {
+			data, _ := conn.ReadMessage()
+			res, _ := s.SocketSvr.Send(c, &socket.Request{
+				Message: user.Name + "：" + string(data),
+			})
+			s.RabbitMq.PublishPub(res.Message)
+		}
 	}
 }
