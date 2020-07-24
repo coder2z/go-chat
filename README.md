@@ -24,7 +24,7 @@
 
 apollo中添加配置
 
-![](https://gitee.com/myxy99/pic/raw/master/img/blog/2020/07/24/20200724140240.png)
+![](https://gitee.com/myxy99/pic/raw/master/img/blog/2020/07/24/20200724140425.png)
 
 启动认证服务
 ```
