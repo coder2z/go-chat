@@ -25,26 +25,22 @@
 ```
 cd auth/auth-svr
 go run main.go
-
 ```
 
 启动认证服务api
 ```
 cd auth/auth-web
 go run main.go
-
 ```
 
 启动socket服务
 ```
 cd socket/socket-svr
 go run main.go
-
 ```
 
 启动socket服务api
 ```
 cd socket/socket-web
 go run main.go
-
 ```

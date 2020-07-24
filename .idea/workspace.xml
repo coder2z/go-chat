@@ -28,8 +28,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="550">
-                <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+              <first_editor relative-caret-position="462">
+                <caret line="45" column="3" lean-forward="true" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -250,7 +250,7 @@
     <frame x="153" y="74" width="1743" height="1143" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16518122" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16518122" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -263,7 +263,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32903865" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32903865" />
       <window_info anchor="bottom" id="Event Log" order="11" show_stripe_button="false" side_tool="true" weight="0.32970297" />
       <window_info anchor="right" id="make" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -636,8 +636,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="550">
-            <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <first_editor relative-caret-position="462">
+            <caret line="45" column="3" lean-forward="true" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
