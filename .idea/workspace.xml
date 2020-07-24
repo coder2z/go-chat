@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c517363e-4215-493f-8fd8-d5beb82d5b93" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/auth-svr/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/auth-web/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/common/config/config.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/socket-svr/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/socket-web/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,8 +28,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="440">
-                <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <first_editor relative-caret-position="550">
+                <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
               </first_editor>
               <second_editor />
             </state>
@@ -46,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/socket/socket-web/config/config.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+            <state relative-caret-position="253">
+              <caret line="19" column="7" selection-start-line="19" selection-end-line="19" selection-end-column="7" />
               <folding>
                 <element signature="e#16#60#0" expanded="true" />
               </folding>
@@ -150,6 +143,22 @@
             <path>
               <item name="go-chat" type="b2602c69:ProjectViewProjectNode" />
               <item name="go-chat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-chat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-chat" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-chat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-chat" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="auth-svr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-chat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-chat" type="462c0819:PsiDirectoryNode" />
+              <item name="socket" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -254,7 +263,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32970297" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32903865" />
       <window_info anchor="bottom" id="Event Log" order="11" show_stripe_button="false" side_tool="true" weight="0.32970297" />
       <window_info anchor="right" id="make" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -557,16 +566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/socket/socket-web/config/config.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <element signature="e#16#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/socket/socket-web/handler/rabbitMQ.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -624,11 +623,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/socket/socket-web/config/config.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="19" column="7" selection-start-line="19" selection-end-line="19" selection-end-column="7" />
+          <folding>
+            <element signature="e#16#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="440">
-            <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <first_editor relative-caret-position="550">
+            <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
           </first_editor>
           <second_editor />
         </state>
