@@ -20,6 +20,7 @@
 
 ## 项目启动
 
+修改common/config/config.go 中的apollo的host
 
 启动认证服务
 ```

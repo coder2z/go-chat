@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c517363e-4215-493f-8fd8-d5beb82d5b93" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/socket/socket-web/middleware/auth.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/auth-svr/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/auth/auth-svr/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/auth-web/handler/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/auth/auth-web/handler/handler.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/auth-web/response/response.go" beforeDir="false" afterPath="$PROJECT_DIR$/common/response/response.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/common/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/common/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/socket-web/handler/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/socket/socket-web/handler/handler.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/socket-web/router/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/socket/socket-web/router/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,32 +12,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/socket/socket-web/router/router.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-              <folding>
-                <element signature="e#16#163#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/socket/socket-web/middleware/auth.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/socket/socket-web/handler/handler.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="38" column="11" lean-forward="true" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="418">
+                <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -97,11 +72,11 @@
         <option value="$PROJECT_DIR$/socket/socket-web/main.go" />
         <option value="$PROJECT_DIR$/socket/socket-web/README.md" />
         <option value="$PROJECT_DIR$/common/config/config.go" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/auth/auth-web/handler/handler.go" />
         <option value="$PROJECT_DIR$/socket/socket-web/middleware/auth.go" />
         <option value="$PROJECT_DIR$/socket/socket-web/router/router.go" />
         <option value="$PROJECT_DIR$/socket/socket-web/handler/handler.go" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -133,20 +108,22 @@
             <path>
               <item name="go-chat" type="b2602c69:ProjectViewProjectNode" />
               <item name="go-chat" type="462c0819:PsiDirectoryNode" />
-              <item name="socket" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-chat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-chat" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="go-chat" type="b2602c69:ProjectViewProjectNode" />
               <item name="go-chat" type="462c0819:PsiDirectoryNode" />
               <item name="socket" type="462c0819:PsiDirectoryNode" />
-              <item name="socket-web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="go-chat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go-chat" type="462c0819:PsiDirectoryNode" />
-              <item name="socket" type="462c0819:PsiDirectoryNode" />
-              <item name="socket-web" type="462c0819:PsiDirectoryNode" />
-              <item name="router" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -582,16 +559,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="682">
-            <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/response/response.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -619,27 +586,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/socket/socket-web/handler/handler.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="38" column="11" lean-forward="true" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socket/socket-web/middleware/auth.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/socket/socket-web/router/router.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        <state relative-caret-position="506">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="e#16#163#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/socket/socket-web/middleware/auth.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/socket/socket-web/handler/handler.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="38" column="11" lean-forward="true" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="418">
+            <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
