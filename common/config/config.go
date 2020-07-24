@@ -2,7 +2,8 @@ package config
 
 import "github.com/shima-park/agollo"
 
-const Apollo = "docker.myxy99.cn:8080"
+// Apollo host
+const Apollo = "xxxx:8080"
 
 func initConfig() agollo.Agollo {
 	a, err := agollo.New(Apollo, "chat", agollo.AutoFetchOnCacheMiss())

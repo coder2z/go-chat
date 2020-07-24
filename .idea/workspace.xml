@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c517363e-4215-493f-8fd8-d5beb82d5b93" name="Default Changelist" comment="" />
+    <list default="true" id="c517363e-4215-493f-8fd8-d5beb82d5b93" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/auth-svr/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/auth-web/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/common/config/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket/socket-svr/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket/socket-web/README.md" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,14 +19,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/socket/socket-web/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+            <state relative-caret-position="550">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="e#14#171#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="440">
+                <caret line="20" selection-start-line="20" selection-end-line="20" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -26,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/socket/socket-web/config/config.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="341">
-              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
               <folding>
                 <element signature="e#16#60#0" expanded="true" />
               </folding>
@@ -38,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/socket/socket-web/handler/rabbitMQ.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
-              <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
               <folding>
                 <element signature="e#17#134#0" expanded="true" />
               </folding>
@@ -70,11 +91,13 @@
     </findStrings>
   </component>
   <component name="GOROOT" path="D:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/auth/auth-svr/proto/auth-svr/auth-svr.proto" />
-        <option value="$PROJECT_DIR$/common/config/config.go" />
         <option value="$PROJECT_DIR$/auth/auth-svr/config/config.go" />
         <option value="$PROJECT_DIR$/auth/auth-svr/models/model.go" />
         <option value="$PROJECT_DIR$/auth/auth-svr/repositories/user_repository.go" />
@@ -102,6 +125,9 @@
         <option value="$PROJECT_DIR$/socket/socket-web/config/config.go" />
         <option value="$PROJECT_DIR$/socket/socket-web/handler/rabbitMQ.go" />
         <option value="$PROJECT_DIR$/socket/socket-web/main.go" />
+        <option value="$PROJECT_DIR$/socket/socket-web/README.md" />
+        <option value="$PROJECT_DIR$/common/config/config.go" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -111,6 +137,7 @@
     <option name="width" value="1743" />
     <option name="height" value="1143" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -124,10 +151,6 @@
               <item name="go-chat" type="b2602c69:ProjectViewProjectNode" />
               <item name="go-chat" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="go-chat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -136,11 +159,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/socket/socket-web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/socket" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -155,6 +179,7 @@
       <recent name="D:\GoLand 2019.1.4\awesomeProject\GOProject\go-chat\socket\socket-web\handler" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GoLand 2019.1.4\awesomeProject\GOProject\go-chat\socket" />
       <recent name="D:\GoLand 2019.1.4\awesomeProject\GOProject\go-chat\socket\socket-web" />
     </key>
   </component>
@@ -213,10 +238,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="155" y="121" width="1743" height="1143" extended-state="0" />
+    <frame x="153" y="74" width="1743" height="1143" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16518122" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16518122" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -247,26 +272,6 @@
     <proxy>https://goproxy.io</proxy>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/auth/auth-svr/config/config.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#16#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../pkg/mod/github.com/micro/go-micro/v2@v2.9.1/logger/level.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="108" column="5" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth/auth-svr/go.sum">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/go.sum">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -542,13 +547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/config/config.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/socket/socket-web/handler/handler.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -562,7 +560,7 @@
     <entry file="file://$PROJECT_DIR$/socket/socket-web/config/config.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
           <folding>
             <element signature="e#16#60#0" expanded="true" />
           </folding>
@@ -572,7 +570,7 @@
     <entry file="file://$PROJECT_DIR$/socket/socket-web/handler/rabbitMQ.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
           <folding>
             <element signature="e#17#134#0" expanded="true" />
           </folding>
@@ -595,11 +593,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/socket/socket-web/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+        <state relative-caret-position="550">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="e#14#171#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socket/socket-web/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socket/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/config/config.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="440">
+            <caret line="20" selection-start-line="20" selection-end-line="20" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
