@@ -22,6 +22,10 @@
 
 修改common/config/config.go 中的apollo的host
 
+apollo中添加配置
+
+![](https://gitee.com/myxy99/pic/raw/master/img/blog/2020/07/24/20200724140240.png)
+
 启动认证服务
 ```
 cd auth/auth-svr
