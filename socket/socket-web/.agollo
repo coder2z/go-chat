@@ -1,0 +1,1 @@
+{"rabbitMq.json":{"content":"{\r\n    \"host\": \"docker.myxy99.cn:5672/chat\",\r\n    \"user\": \"admin\",\r\n    \"password\": \"admin\"\r\n}"}}

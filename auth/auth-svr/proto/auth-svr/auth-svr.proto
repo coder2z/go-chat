@@ -1,0 +1,62 @@
+syntax = "proto3";
+
+package go.micro.chat.auth.service.authsvr;
+
+service AuthSvr {
+    rpc Login (Request) returns (LoginResponse) {
+    }
+
+    rpc Info (InfoRequest) returns (InfoResponse) {
+    }
+
+    rpc Register (Request) returns (RegisterResponse) {
+    }
+}
+
+message Request {
+    // @inject_tag: json:"name"
+    string name = 1;
+    // @inject_tag: json:"password"
+    string password = 2;
+}
+
+message LoginResponse {
+    // @inject_tag: json:"msg"
+    string msg = 1;
+    // @inject_tag: json:"code"
+    int64 code = 2;
+    // @inject_tag: json:"token"
+    string token = 3;
+}
+
+message UserInfo {
+    // @inject_tag: json:"name"
+    string name = 1;
+    // @inject_tag: json:"id"
+    int64 id = 2;
+}
+
+message InfoResponse {
+    // @inject_tag: json:"msg"
+    string msg = 1;
+    // @inject_tag: json:"code"
+    int64 code = 2;
+    // @inject_tag: json:"data"
+    UserInfo data = 3;
+}
+
+message InfoRequest {
+    // @inject_tag: json:"token"
+    string token = 1;
+}
+
+message RegisterResponse {
+    // @inject_tag: json:"msg"
+    string msg = 1;
+    // @inject_tag: json:"code"
+    int64 code = 2;
+}
+
+//  生成兼容grpc的go文件
+//  protoc --proto_path=. --micro_out=. --go_out=. *.proto
+//  protoc-go-inject-tag -input=./*.pb.go

@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package go.micro.chat.socket.service.socketsvr;
+
+service SocketSvr {
+	rpc Send(Request) returns (Response) {}
+}
+
+message Request {
+	// @inject_tag: json:"message"
+	string message = 1;
+}
+
+message Response {
+	// @inject_tag: json:"message"
+	string message = 1;
+}
